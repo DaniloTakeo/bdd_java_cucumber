@@ -16,6 +16,13 @@ public class ContaBancaria {
         }
         saldo -= valor;
     }
+    
+    public void depositar(double valor) {
+        if (valor <= 0) {
+            throw new IllegalArgumentException("Valor do depósito deve ser positivo");
+        }
+        this.saldo += valor;
+    }
 
     public double getSaldo() {
         return saldo;
