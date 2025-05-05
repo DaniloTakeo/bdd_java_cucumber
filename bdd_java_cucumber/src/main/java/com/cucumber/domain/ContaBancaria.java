@@ -23,6 +23,14 @@ public class ContaBancaria {
         }
         this.saldo += valor;
     }
+    
+    public void transferir(ContaBancaria destino, double valor) {
+        if (destino == null) {
+            throw new IllegalArgumentException("Conta de destino não pode ser nula");
+        }
+        this.sacar(valor);
+        destino.depositar(valor);
+    }
 
     public double getSaldo() {
         return saldo;
