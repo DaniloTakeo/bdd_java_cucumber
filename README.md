@@ -11,10 +11,7 @@ Este projeto simula um **Sistema Bancário** básico utilizando **Desenvolviment
 - **Cucumber (Gherkin)** – para escrita de cenários em linguagem natural
 - **AssertJ** – para asserções fluent
 - **Maven** – gerenciamento de dependências e build
-- **JaCoCo** – geração de relatório de cobertura de testes (opcional)
 - **IDE recomendada**: IntelliJ IDEA ou Eclipse
-
----
 
 ---
 
